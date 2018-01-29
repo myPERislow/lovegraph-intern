@@ -1,0 +1,19 @@
+current directory: /Users/zxbp2w/Desktop/intern/lovegraph-intern/vendor/bundle/gems/byebug-10.0.0/ext/byebug
+/Users/zxbp2w/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20180129-45594-hv9bp2.rb extconf.rb
+creating Makefile
+
+current directory: /Users/zxbp2w/Desktop/intern/lovegraph-intern/vendor/bundle/gems/byebug-10.0.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/zxbp2w/Desktop/intern/lovegraph-intern/vendor/bundle/gems/byebug-10.0.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/zxbp2w/Desktop/intern/lovegraph-intern/vendor/bundle/gems/byebug-10.0.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20180129-45594-hnfigh/byebug

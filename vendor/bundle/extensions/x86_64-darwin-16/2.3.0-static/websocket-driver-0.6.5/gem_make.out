@@ -1,0 +1,15 @@
+current directory: /Users/zxbp2w/Desktop/intern/lovegraph-intern/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+/Users/zxbp2w/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20180129-45594-1w2jibi.rb extconf.rb
+creating Makefile
+
+current directory: /Users/zxbp2w/Desktop/intern/lovegraph-intern/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/zxbp2w/Desktop/intern/lovegraph-intern/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/zxbp2w/Desktop/intern/lovegraph-intern/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20180129-45594-2tljyk
