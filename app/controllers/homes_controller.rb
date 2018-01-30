@@ -17,6 +17,4 @@ class HomesController < ApplicationController
   def login
   end
 
-  def apply
-  end
 end
