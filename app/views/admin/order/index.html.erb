@@ -1,1 +1,11 @@
-管理画面です。
+<h1>管理画面です</h1>
+<% @order.each do |order| %>
+  <p>名前</p>
+  <span>
+    <%= link_to order.name, admin_order_path(order.id) %>
+  </span>
+  <p>電話番号</p>
+  <span><%= order.phone_number %></span>
+  <p>メールアドレス</p>
+  <span><%= order.mail %></span>
+<% end %>

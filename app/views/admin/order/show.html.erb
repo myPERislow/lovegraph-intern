@@ -1,1 +1,9 @@
-詳細管理画面です。
+<h1>詳細管理画面です。</h1>
+<h1>名前</h1>
+<%= @order.name %>
+<h1>電話番号</h1>
+<%= @order.phone_number %>
+<h1>メールアドレス</h1>
+<%= @order.mail %>
+
+<%= link_to '納品画面へ' ,uploader_form_path %>

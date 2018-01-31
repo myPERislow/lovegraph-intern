@@ -3,7 +3,6 @@ class Admin::OrderController < ApplicationController
     @order = Inquiry.all
   end
   def show
-  end
-  def create
+    @order = Inquiry.find(params[:id])
   end
 end
