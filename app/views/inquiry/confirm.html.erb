@@ -1,0 +1,19 @@
+<div class="container">
+  <%= form_for @inquiry, :url => { :controller => :inquiry, :action => :create} do |f| %>
+  <div class="form-group">
+    名前: <%= @inquiry.name %><br>
+    <%= f.hidden_field :name %>
+  </div>
+  <div class="form-group">
+    電話番号: <%= @inquiry.phone_number %><br>
+    <%= f.hidden_field :phone_number %>
+  </div>
+  <div class="form-group">
+    メールアドレス: <%= @inquiry.mail %><br>
+    <%= f.hidden_field :mail %>
+  </div>
+
+  <%= f.submit '戻る' ,name: 'back'%>
+  <%= f.submit '申し込み完了'%>
+  <% end %>
+</div>

@@ -14,9 +14,14 @@ Rails.application.routes.draw do
 
   get 'homes/login'
 
-  get 'inquiry' => 'inquiry#index' #入力画面
-
-
-
+  resources :inquiry do
+    collection do
+      post :confirm
+    end
+  end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  namespace :admin do
+    resources :order
+  end
 end

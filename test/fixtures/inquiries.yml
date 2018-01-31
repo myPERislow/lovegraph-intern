@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  campaign_code: MyString
+  genre: MyString
+  area: MyString
+  place_decide_which: false
+  date: 1
+  name: MyString
+  phone_number: 1
+  mail: MyString
+  comment: MyText
+  line_id: MyString
+  option: false
+
+two:
+  campaign_code: MyString
+  genre: MyString
+  area: MyString
+  place_decide_which: false
+  date: 1
+  name: MyString
+  phone_number: 1
+  mail: MyString
+  comment: MyText
+  line_id: MyString
+  option: false
