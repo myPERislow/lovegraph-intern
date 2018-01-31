@@ -11,14 +11,17 @@ class InquiryController < ApplicationController
   end
 
   def create
-    @inquiry = Inquiry.new(inquiry_params)
+    inquiry = Inquiry.new(inquiry_params)
     if params[:back]
       render :index
-    elsif @inquiry.save
-      redirect_to @inquiry,notice: "申し込みが完了しました。"
+    elsif inquiry.save
+      redirect_to inquiry_path(id: inquiry.id),notice: "申し込みが完了しました。"
     else
       render :index
     end
+  end
+
+  def show
   end
 
   private
